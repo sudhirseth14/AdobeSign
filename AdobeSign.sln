@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdobeSign", "AdobeSign", "{6D6D519D-7838-49F6-96E7-B821D81D6891}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{621FF0F4-C26C-40D9-BA4A-162D68FF1859}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdobeSign", "AdobeSign\AdobeSign\AdobeSign.csproj", "{9E38ABA3-BA04-434F-B0EE-35AF241E9246}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdobeSign.Activities", "AdobeSign\AdobeSign.Activities\AdobeSign.Activities.csproj", "{F4C64B0A-D67B-4D27-ABF4-A2B578D8BC4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdobeSign.Activities.Design", "AdobeSign\AdobeSign.Activities.Design\AdobeSign.Activities.Design.csproj", "{03226E9E-8B52-499B-95EE-39EC4F745191}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{03226e9e-8b52-499b-95ee-39ec4f745191}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{f4c64b0a-d67b-4d27-abf4-a2b578d8bc4c}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E38ABA3-BA04-434F-B0EE-35AF241E9246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E38ABA3-BA04-434F-B0EE-35AF241E9246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E38ABA3-BA04-434F-B0EE-35AF241E9246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E38ABA3-BA04-434F-B0EE-35AF241E9246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C64B0A-D67B-4D27-ABF4-A2B578D8BC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C64B0A-D67B-4D27-ABF4-A2B578D8BC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C64B0A-D67B-4D27-ABF4-A2B578D8BC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C64B0A-D67B-4D27-ABF4-A2B578D8BC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03226E9E-8B52-499B-95EE-39EC4F745191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03226E9E-8B52-499B-95EE-39EC4F745191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03226E9E-8B52-499B-95EE-39EC4F745191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03226E9E-8B52-499B-95EE-39EC4F745191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {621FF0F4-C26C-40D9-BA4A-162D68FF1859}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {621FF0F4-C26C-40D9-BA4A-162D68FF1859}
+		{9E38ABA3-BA04-434F-B0EE-35AF241E9246} = {6D6D519D-7838-49F6-96E7-B821D81D6891}
+		{F4C64B0A-D67B-4D27-ABF4-A2B578D8BC4C} = {6D6D519D-7838-49F6-96E7-B821D81D6891}
+		{03226E9E-8B52-499B-95EE-39EC4F745191} = {6D6D519D-7838-49F6-96E7-B821D81D6891}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED8B099F-29D5-46FF-96F1-9FC8E190E3E6}
+	EndGlobalSection
+EndGlobal

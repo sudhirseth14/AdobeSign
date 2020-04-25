@@ -1,0 +1,1084 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddDocument_Description" xml:space="preserve">
+    <value>ドキュメントをアップロードし、ドキュメントのIDを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="AddDocument_DisplayName" xml:space="preserve">
+    <value>ドキュメントを追加</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="AddDocument_FilePath_Description" xml:space="preserve">
+    <value>ドキュメントアップロードのマルチパートリクエストのファイル部分。 一度にアップロードできるファイルは1つだけです。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="AddDocument_FilePath_DisplayName" xml:space="preserve">
+    <value>ファイルパス</value>
+    <comment>property name</comment>
+  </data>
+  <data name="AddDocument_TransientDocumentId_Description" xml:space="preserve">
+    <value>契約で使用できるアップロードされたドキュメントの一意の識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="AddDocument_TransientDocumentId_DisplayName" xml:space="preserve">
+    <value>一時ドキュメントID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="AdobeSignScope_APIAccessPoint_Description" xml:space="preserve">
+    <value>ブラウザの呼び出しで生成されたapi_access_pointをここに入力します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="AdobeSignScope_APIAccessPoint_DisplayName" xml:space="preserve">
+    <value>APIアクセスポイント</value>
+    <comment>property name</comment>
+  </data>
+  <data name="AdobeSignScope_ClientId_Description" xml:space="preserve">
+    <value>これは、AdobeアプリケーションのアプリケーションIDです。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="AdobeSignScope_ClientId_DisplayName" xml:space="preserve">
+    <value>クライアントID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="AdobeSignScope_ClientSecret_Description" xml:space="preserve">
+    <value>これは、AdobeアプリケーションのクライアントシークレットIDです。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="AdobeSignScope_ClientSecret_DisplayName" xml:space="preserve">
+    <value>クライアントシークレット</value>
+    <comment>property name</comment>
+  </data>
+  <data name="AdobeSignScope_Description" xml:space="preserve">
+    <value>これは、他のAdobe Signアクティビティを使用するための認証を提供するスコープアクティビティです。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="AdobeSignScope_DisplayName" xml:space="preserve">
+    <value>Adobe Signスコープ</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="AdobeSignScope_RedirectUri_Description" xml:space="preserve">
+    <value>これは、AdobeアプリケーションのUriをリダイレクトしています。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="AdobeSignScope_RedirectUri_DisplayName" xml:space="preserve">
+    <value>Uriをリダイレクト</value>
+    <comment>property name</comment>
+  </data>
+  <data name="AdobeSignScope_RefreshToken_Description" xml:space="preserve">
+    <value>これは、Get Refresh Tokenアクティビティによって生成されたトークンです。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="AdobeSignScope_RefreshToken_DisplayName" xml:space="preserve">
+    <value>トークンを更新</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Authentication_Category" xml:space="preserve">
+    <value>認証</value>
+    <comment>category</comment>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>一般</value>
+    <comment>category</comment>
+  </data>
+  <data name="ContinueOnError_Description" xml:space="preserve">
+    <value>設定されている場合、現在のアクティビティが失敗した場合でも、残りのアクティビティの実行を続行します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ContinueOnError_DisplayName" xml:space="preserve">
+    <value>ContinueOnError</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteAgreement_AgreementId_Description" xml:space="preserve">
+    <value>契約作成APIによって返される、または契約を取得するためにAPIから取得される契約識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteAgreement_AgreementId_DisplayName" xml:space="preserve">
+    <value>契約ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteAgreement_Description" xml:space="preserve">
+    <value>契約を削除します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="DeleteAgreement_DisplayName" xml:space="preserve">
+    <value>契約を削除</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DeleteAgreement_Response_Description" xml:space="preserve">
+    <value>ブール値での応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteAgreement_Response_DisplayName" xml:space="preserve">
+    <value>応答</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>行う</value>
+    <comment>generic</comment>
+  </data>
+  <data name="DownloadAgreement_AgreementId_Description" xml:space="preserve">
+    <value>契約作成APIによって返される、または契約を取得するためにAPIから取得される契約識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DownloadAgreement_AgreementId_DisplayName" xml:space="preserve">
+    <value>契約ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DownloadAgreement_Description" xml:space="preserve">
+    <value>契約をダウンロードして保存します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="DownloadAgreement_DisplayName" xml:space="preserve">
+    <value>ダウンロード契約</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DownloadAgreement_FileName_Description" xml:space="preserve">
+    <value>ファイルの名前を入力します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DownloadAgreement_FileName_DisplayName" xml:space="preserve">
+    <value>ファイル名</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DownloadAgreement_FilePath_Description" xml:space="preserve">
+    <value>ファイルを保存するファイルパスを指定します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DownloadAgreement_FilePath_DisplayName" xml:space="preserve">
+    <value>ファイルパス</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DownloadAgreement_Response_Description" xml:space="preserve">
+    <value>ブール値での応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DownloadAgreement_Response_DisplayName" xml:space="preserve">
+    <value>応答</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAccountInformation_AccountId_Description" xml:space="preserve">
+    <value>アカウント識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAccountInformation_AccountId_DisplayName" xml:space="preserve">
+    <value>アカウントID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAccountInformation_Account_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAccountInformation_Account_DisplayName" xml:space="preserve">
+    <value>アカウント</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAccountInformation_Description" xml:space="preserve">
+    <value>アカウントの情報を取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAccountInformation_DisplayName" xml:space="preserve">
+    <value>アカウント情報を取得する</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAgreements_Description" xml:space="preserve">
+    <value>ユーザーの契約を取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAgreements_DisplayName" xml:space="preserve">
+    <value>契約を結ぶ</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAgreements_UserAgreements_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAgreements_UserAgreements_DisplayName" xml:space="preserve">
+    <value>UserAgreements</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAgreement_AgreementId_Description" xml:space="preserve">
+    <value>ドキュメント送信アクティビティによって返される契約識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAgreement_AgreementId_DisplayName" xml:space="preserve">
+    <value>契約ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAgreement_AgreementInformation_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAgreement_AgreementInformation_DisplayName" xml:space="preserve">
+    <value>契約情報</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAgreement_Description" xml:space="preserve">
+    <value>契約の現在のステータスを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAgreement_DisplayName" xml:space="preserve">
+    <value>同意を得る</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllGroups_Description" xml:space="preserve">
+    <value>アカウント内のすべてのグループを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAllGroups_DisplayName" xml:space="preserve">
+    <value>すべてのグループを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllGroups_GroupsInformation_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllGroups_GroupsInformation_DisplayName" xml:space="preserve">
+    <value>グループ情報</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllLibraryDocuments_Description" xml:space="preserve">
+    <value>ユーザーのライブラリドキュメントを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAllLibraryDocuments_DisplayName" xml:space="preserve">
+    <value>すべてのライブラリドキュメントを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllLibraryDocuments_LibraryDocuments_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllLibraryDocuments_LibraryDocuments_DisplayName" xml:space="preserve">
+    <value>ライブラリドキュメント</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllUsers_Description" xml:space="preserve">
+    <value>すべてのユーザーを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAllUsers_DisplayName" xml:space="preserve">
+    <value>すべてのユーザーを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllUsers_UsersInformation_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllUsers_UsersInformation_DisplayName" xml:space="preserve">
+    <value>ユーザー情報</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetAllWorkflows_Description" xml:space="preserve">
+    <value>ユーザーのワークフローを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetAllWorkflows_DisplayName" xml:space="preserve">
+    <value>すべてのワークフローを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetAllWorkflows_Workflows_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetAllWorkflows_Workflows_DisplayName" xml:space="preserve">
+    <value>ワークフロー</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetGroupsOfUser_Description" xml:space="preserve">
+    <value>グループに関連付けられているユーザーを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetGroupsOfUser_DisplayName" xml:space="preserve">
+    <value>ユーザーのグループを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetGroupsOfUser_UserGroupsInformation_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetGroupsOfUser_UserGroupsInformation_DisplayName" xml:space="preserve">
+    <value>ユーザーグループ情報</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetGroupsOfUser_UserId_Description" xml:space="preserve">
+    <value>ユーザーのユーザーID。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetGroupsOfUser_UserId_DisplayName" xml:space="preserve">
+    <value>ユーザーID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetGroup_Description" xml:space="preserve">
+    <value>グループに関する詳細情報を取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetGroup_DetailedGroupInformation_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetGroup_DetailedGroupInformation_DisplayName" xml:space="preserve">
+    <value>詳細なグループ情報</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetGroup_DisplayName" xml:space="preserve">
+    <value>グループを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetGroup_GroupId_Description" xml:space="preserve">
+    <value>グループ識別子。グループ作成APIによって返されるか、グループをフェッチするためにAPIから取得されます。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetGroup_GroupId_DisplayName" xml:space="preserve">
+    <value>グループID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetLibraryDocument_Description" xml:space="preserve">
+    <value>ライブラリドキュメントの詳細を取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetLibraryDocument_DisplayName" xml:space="preserve">
+    <value>ライブラリドキュメントを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetLibraryDocument_LibraryDocumentId_Description" xml:space="preserve">
+    <value>ライブラリドキュメントをフェッチするためにAPIから取得されるドキュメント識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetLibraryDocument_LibraryDocumentId_DisplayName" xml:space="preserve">
+    <value>ライブラリドキュメントID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetLibraryDocument_LibraryDocumentInformation_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetLibraryDocument_LibraryDocumentInformation_DisplayName" xml:space="preserve">
+    <value>図書館資料情報</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetMessageTemplates_Description" xml:space="preserve">
+    <value>現在のユーザーに適用可能なメッセージテンプレートのリストを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetMessageTemplates_DisplayName" xml:space="preserve">
+    <value>メッセージテンプレートを取得する</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetMessageTemplates_Locale_Description" xml:space="preserve">
+    <value>メッセージテンプレートロケール。 （例：en_US）</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetMessageTemplates_Locale_DisplayName" xml:space="preserve">
+    <value>ロケール</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetMessageTemplates_MessageTemplates_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetMessageTemplates_MessageTemplates_DisplayName" xml:space="preserve">
+    <value>メッセージテンプレート</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetRefreshToken_APIAccessPoint_Description" xml:space="preserve">
+    <value>ブラウザの呼び出しで生成されたapi_access_pointをここに入力します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetRefreshToken_APIAccessPoint_DisplayName" xml:space="preserve">
+    <value>APIアクセスポイント</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetRefreshToken_AuthorizationCode_Description" xml:space="preserve">
+    <value>これはブラウザ呼び出しによって生成されたコードです。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetRefreshToken_AuthorizationCode_DisplayName" xml:space="preserve">
+    <value>認証コード</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetRefreshToken_ClientId_Description" xml:space="preserve">
+    <value>これは、AdobeアプリケーションのアプリケーションIDです。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetRefreshToken_ClientId_DisplayName" xml:space="preserve">
+    <value>クライアントID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetRefreshToken_ClientSecret_Description" xml:space="preserve">
+    <value>これは、AdobeアプリケーションのクライアントシークレットIDです。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetRefreshToken_ClientSecret_DisplayName" xml:space="preserve">
+    <value>クライアントシークレット</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetRefreshToken_Description" xml:space="preserve">
+    <value>このアクティビティは、更新トークンを取得するために使用されます。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetRefreshToken_DisplayName" xml:space="preserve">
+    <value>更新トークンを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetRefreshToken_RedirectUri_Description" xml:space="preserve">
+    <value>これは、AdobeアプリケーションのUriをリダイレクトしています。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetRefreshToken_RedirectUri_DisplayName" xml:space="preserve">
+    <value>Uriをリダイレクト</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetRefreshToken_RefreshToken_Description" xml:space="preserve">
+    <value>この更新トークンは、アドビ署名スコープアクティビティを渡すために使用されます。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetRefreshToken_RefreshToken_DisplayName" xml:space="preserve">
+    <value>トークンを更新</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetSigningURL_AgreementId_Description" xml:space="preserve">
+    <value>契約作成APIによって返される、または契約を取得するためにAPIから取得される契約識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetSigningURL_AgreementId_DisplayName" xml:space="preserve">
+    <value>契約ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetSigningURL_Description" xml:space="preserve">
+    <value>契約の現在の署名者の電子署名ページのURLを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetSigningURL_DisplayName" xml:space="preserve">
+    <value>署名URLを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetSigningURL_SigningUrlResponse_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetSigningURL_SigningUrlResponse_DisplayName" xml:space="preserve">
+    <value>URL応答の署名</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUsersOfGroup_Description" xml:space="preserve">
+    <value>グループ内のすべてのユーザーを取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetUsersOfGroup_DisplayName" xml:space="preserve">
+    <value>グループのユーザーを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetUsersOfGroup_GroupId_Description" xml:space="preserve">
+    <value>グループ識別子。グループ作成APIによって返されるか、グループをフェッチするためにAPIから取得されます。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUsersOfGroup_GroupId_DisplayName" xml:space="preserve">
+    <value>グループID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUsersOfGroup_GroupUsersInformation_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUsersOfGroup_GroupUsersInformation_DisplayName" xml:space="preserve">
+    <value>グループユーザー情報</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_Description" xml:space="preserve">
+    <value>発信者アカウントでユーザーに関する詳細情報を取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetUser_DetailedUserInformation_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_DetailedUserInformation_DisplayName" xml:space="preserve">
+    <value>詳細なユーザー情報</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetUser_DisplayName" xml:space="preserve">
+    <value>ユーザーを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetUser_UserId_Description" xml:space="preserve">
+    <value>ユーザーのユーザーID。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetUser_UserId_DisplayName" xml:space="preserve">
+    <value>ユーザーID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetWorkflow_Description" xml:space="preserve">
+    <value>ワークフローの詳細を取得します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetWorkflow_DisplayName" xml:space="preserve">
+    <value>ワークフローを取得</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetWorkflow_WorkflowDescription_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetWorkflow_WorkflowDescription_DisplayName" xml:space="preserve">
+    <value>ワークフローの説明</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetWorkflow_WorkflowId_Description" xml:space="preserve">
+    <value>ワークフローをフェッチするためにAPIから取得されたワークフロー識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetWorkflow_WorkflowId_DisplayName" xml:space="preserve">
+    <value>ワークフローID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>入力</value>
+    <comment>category</comment>
+  </data>
+  <data name="Options_Category" xml:space="preserve">
+    <value>オプション</value>
+    <comment>category</comment>
+  </data>
+  <data name="Output_Category" xml:space="preserve">
+    <value>出力</value>
+    <comment>category</comment>
+  </data>
+  <data name="RevokeToken_Description" xml:space="preserve">
+    <value>このアクティビティは、アクセスとリフレッシュトークンを取り消すために使用されていました。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="RevokeToken_DisplayName" xml:space="preserve">
+    <value>トークンを取り消す</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="RevokeToken_Status_Description" xml:space="preserve">
+    <value>取り消されたトークンのステータス。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="RevokeToken_Status_DisplayName" xml:space="preserve">
+    <value>状態</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendAgreement_Description" xml:space="preserve">
+    <value>契約を作成します。 署名用に送信し、クライアントへの応答で契約IDを返します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="SendAgreement_DisplayName" xml:space="preserve">
+    <value>同意書を送信</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SendAgreement_EmailId_Description" xml:space="preserve">
+    <value>受信者のメールID。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendAgreement_EmailId_DisplayName" xml:space="preserve">
+    <value>電子メールID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendAgreement_Id_Description" xml:space="preserve">
+    <value>契約の一意の識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendAgreement_Id_DisplayName" xml:space="preserve">
+    <value>Id</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendAgreement_Name_Description" xml:space="preserve">
+    <value>電子メール、Webサイト、その他の場所で、それを識別するために使用される契約の名前。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendAgreement_Name_DisplayName" xml:space="preserve">
+    <value>名前</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendAgreement_Role_Description" xml:space="preserve">
+    <value>参加者セットの役割。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendAgreement_Role_DisplayName" xml:space="preserve">
+    <value>役割</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendAgreement_SignatureType_Description" xml:space="preserve">
+    <value>リクエストする署名のタイプ。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendAgreement_SignatureType_DisplayName" xml:space="preserve">
+    <value>署名タイプ</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendAgreement_State_Description" xml:space="preserve">
+    <value>協定が上陸する州。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendAgreement_State_DisplayName" xml:space="preserve">
+    <value>状態</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendAgreement_TransientDocumentId_Description" xml:space="preserve">
+    <value>契約で使用できるアップロードされたドキュメントの一意の識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendAgreement_TransientDocumentId_DisplayName" xml:space="preserve">
+    <value>一時ドキュメントID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendReminder_AgreementId_Description" xml:space="preserve">
+    <value>契約作成APIによって返される、または契約を取得するためにAPIから取得される契約識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendReminder_AgreementId_DisplayName" xml:space="preserve">
+    <value>契約ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendReminder_Description" xml:space="preserve">
+    <value>パス内の契約IDで識別される契約の指定された参加者にリマインダーを作成します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="SendReminder_DisplayName" xml:space="preserve">
+    <value>リマインダーを送信</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SendReminder_Frequency_Description" xml:space="preserve">
+    <value>同意が完了するまでリマインダーが送信される頻度。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendReminder_Frequency_DisplayName" xml:space="preserve">
+    <value>周波数</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendReminder_ParticipantIds_Description" xml:space="preserve">
+    <value>リマインダーの送信先となる1つ以上の参加者IDのリスト。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendReminder_ParticipantIds_DisplayName" xml:space="preserve">
+    <value>参加者ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SendReminder_ReminderCreationResult_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SendReminder_ReminderCreationResult_DisplayName" xml:space="preserve">
+    <value>リマインダー作成結果</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ShareAgreement_AgreementId_Description" xml:space="preserve">
+    <value>契約作成APIによって返される、または契約を取得するためにAPIから取得される契約識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ShareAgreement_AgreementId_DisplayName" xml:space="preserve">
+    <value>契約ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ShareAgreement_Description" xml:space="preserve">
+    <value>誰かと契約を共有します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="ShareAgreement_DisplayName" xml:space="preserve">
+    <value>共有契約</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ShareAgreement_EmailIds_Description" xml:space="preserve">
+    <value>契約を共有するメンバーのメールアドレス。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ShareAgreement_EmailIds_DisplayName" xml:space="preserve">
+    <value>メールID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ShareAgreement_Message_Description" xml:space="preserve">
+    <value>共有相手へのオプションのメッセージ。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ShareAgreement_Message_DisplayName" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ShareAgreement_ShareCreationResponseList_Description" xml:space="preserve">
+    <value>Jsonでの応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ShareAgreement_ShareCreationResponseList_DisplayName" xml:space="preserve">
+    <value>共有作成応答リスト</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Timeout_Description" xml:space="preserve">
+    <value>エラーがスローされる前にアクティビティの実行を待機する時間（ミリ秒）を指定します。 デフォルト値は60000（1分）です。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Timeout_DisplayName" xml:space="preserve">
+    <value>タイムアウト（ミリ秒）</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Timeout_Error" xml:space="preserve">
+    <value>アクティビティがタイムアウトし、キャンセルされました。</value>
+    <comment>error message</comment>
+  </data>
+  <data name="UpdateAgreementState_AgreementId_Description" xml:space="preserve">
+    <value>契約作成APIによって返される、または契約を取得するためにAPIから取得される契約識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateAgreementState_AgreementId_DisplayName" xml:space="preserve">
+    <value>契約ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateAgreementState_Comments_Description" xml:space="preserve">
+    <value>コメントを入力して状態を更新します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateAgreementState_Comments_DisplayName" xml:space="preserve">
+    <value>コメント</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateAgreementState_Description" xml:space="preserve">
+    <value>送信された契約の状態を更新します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateAgreementState_DisplayName" xml:space="preserve">
+    <value>契約状態の更新</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateAgreementState_NotifyOthers_Description" xml:space="preserve">
+    <value>合意の更新状態を他の人に通知する場合はtrueを設定し、そうでない場合はfalseを設定します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateAgreementState_NotifyOthers_DisplayName" xml:space="preserve">
+    <value>他に通知</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateAgreementState_Response_Description" xml:space="preserve">
+    <value>ブール値での応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateAgreementState_Response_DisplayName" xml:space="preserve">
+    <value>応答</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateAgreementState_State_Description" xml:space="preserve">
+    <value>更新する状態を設定します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateAgreementState_State_DisplayName" xml:space="preserve">
+    <value>状態</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateAgreementVisibility_AgreementId_Description" xml:space="preserve">
+    <value>契約作成APIによって返される、または契約を取得するためにAPIから取得される契約識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateAgreementVisibility_AgreementId_DisplayName" xml:space="preserve">
+    <value>契約ID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateAgreementVisibility_Description" xml:space="preserve">
+    <value>契約の可視性を更新します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateAgreementVisibility_DisplayName" xml:space="preserve">
+    <value>契約の可視性を更新</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateAgreementVisibility_Response_Description" xml:space="preserve">
+    <value>ブール値での応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateAgreementVisibility_Response_DisplayName" xml:space="preserve">
+    <value>応答</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateAgreementVisibility_VisibilityStatus_Description" xml:space="preserve">
+    <value>可視状態を設定します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateAgreementVisibility_VisibilityStatus_DisplayName" xml:space="preserve">
+    <value>可視性ステータス</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateLibraryDocumentState_Description" xml:space="preserve">
+    <value>ライブラリドキュメントの状態を更新します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateLibraryDocumentState_DisplayName" xml:space="preserve">
+    <value>ライブラリドキュメントの状態を更新</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateLibraryDocumentState_LibraryDocumentId_Description" xml:space="preserve">
+    <value>ライブラリドキュメントをフェッチするためにAPIから取得されるドキュメント識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateLibraryDocumentState_LibraryDocumentId_DisplayName" xml:space="preserve">
+    <value>ライブラリドキュメントID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateLibraryDocumentState_Response_Description" xml:space="preserve">
+    <value>ブール値での応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateLibraryDocumentState_Response_DisplayName" xml:space="preserve">
+    <value>応答</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateLibraryDocumentState_State_Description" xml:space="preserve">
+    <value>更新する状態を設定します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateLibraryDocumentState_State_DisplayName" xml:space="preserve">
+    <value>状態</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateLibraryDocumentVisibility_Description" xml:space="preserve">
+    <value>ライブラリドキュメントの可視性を更新します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateLibraryDocumentVisibility_DisplayName" xml:space="preserve">
+    <value>ライブラリドキュメントの可視性を更新</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateLibraryDocumentVisibility_LibraryDocumentId_Description" xml:space="preserve">
+    <value>ライブラリドキュメントをフェッチするためにAPIから取得されるドキュメント識別子。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateLibraryDocumentVisibility_LibraryDocumentId_DisplayName" xml:space="preserve">
+    <value>ライブラリドキュメントID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateLibraryDocumentVisibility_Response_Description" xml:space="preserve">
+    <value>ブール値での応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateLibraryDocumentVisibility_Response_DisplayName" xml:space="preserve">
+    <value>応答</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateLibraryDocumentVisibility_VisibilityStatus_Description" xml:space="preserve">
+    <value>可視状態を設定します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateLibraryDocumentVisibility_VisibilityStatus_DisplayName" xml:space="preserve">
+    <value>可視性ステータス</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserDetails_Description" xml:space="preserve">
+    <value>ユーザーの詳細の一部を更新します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateUserDetails_DisplayName" xml:space="preserve">
+    <value>ユーザー詳細の更新</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateUserDetails_IsAccountAdmin_Description" xml:space="preserve">
+    <value>ユーザーが管理者を作成する場合は、trueまたはfalseを設定します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserDetails_IsAccountAdmin_DisplayName" xml:space="preserve">
+    <value>アカウント管理者です</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserDetails_Phone_Description" xml:space="preserve">
+    <value>更新する電話番号を入力します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserDetails_Phone_DisplayName" xml:space="preserve">
+    <value>電話</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserDetails_Reponse_Description" xml:space="preserve">
+    <value>ブール値での応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserDetails_Reponse_DisplayName" xml:space="preserve">
+    <value>反応</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserDetails_Title_Description" xml:space="preserve">
+    <value>更新するタイトルを入力します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserDetails_Title_DisplayName" xml:space="preserve">
+    <value>題名</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserDetails_UserId_Description" xml:space="preserve">
+    <value>ユーザーのユーザーID。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserDetails_UserId_DisplayName" xml:space="preserve">
+    <value>ユーザーID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserState_Comments_Description" xml:space="preserve">
+    <value>コメントを入力して状態を更新します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserState_Comments_DisplayName" xml:space="preserve">
+    <value>コメント</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserState_Description" xml:space="preserve">
+    <value>ユーザーの状態を更新します。</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="UpdateUserState_DisplayName" xml:space="preserve">
+    <value>ユーザー状態の更新</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="UpdateUserState_Response_Description" xml:space="preserve">
+    <value>ブール値での応答。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserState_Response_DisplayName" xml:space="preserve">
+    <value>応答</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserState_State_Description" xml:space="preserve">
+    <value>更新する状態を設定します。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserState_State_DisplayName" xml:space="preserve">
+    <value>状態</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UpdateUserState_UserId_Description" xml:space="preserve">
+    <value>ユーザーのユーザーID。</value>
+    <comment>property description</comment>
+  </data>
+  <data name="UpdateUserState_UserId_DisplayName" xml:space="preserve">
+    <value>ユーザーID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ValidationExclusiveProperties_Error" xml:space="preserve">
+    <value>{0}または{1}のどちらか一方の値を指定してください。両方は指定できません。</value>
+    <comment>error message; {0} &amp; {1} are mutually exclusive activities</comment>
+  </data>
+  <data name="ValidationOverloadGroup_Error" xml:space="preserve">
+    <value>{0}と{1}の両方に値を入力してください。</value>
+    <comment>error message; {0} &amp; {1} are complementary properties</comment>
+  </data>
+  <data name="ValidationScope_Error" xml:space="preserve">
+    <value>{0}の外では使用できません。</value>
+    <comment>error message; {0} is a container activity (e.g. a scope)</comment>
+  </data>
+  <data name="ValidationValue_Error" xml:space="preserve">
+    <value>{0}の値を入力してください。</value>
+    <comment>error message; {0} is the name of a missing property</comment>
+  </data>
+</root>

@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net461</TargetFrameworks>
+		<RootNamespace>AdobeSign.Activities</RootNamespace>
+		<AssemblyName>AdobeSign.Activities</AssemblyName>
+    <PackageId>AdobeSign.Activities.Implementation</PackageId>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DocumentationFile>bin\$(Configuration)\AdobeSign.Activities.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Activities\Account\**" />
+    <Compile Remove="Activities\Agreements\**" />
+    <Compile Remove="Activities\Groups\**" />
+    <Compile Remove="Activities\Library Documents\**" />
+    <Compile Remove="Activities\Message Templates\**" />
+    <Compile Remove="Activities\Scope\**" />
+    <Compile Remove="Activities\Tokens\**" />
+    <Compile Remove="Activities\Transient Documents\**" />
+    <Compile Remove="Activities\Users\**" />
+    <Compile Remove="Activities\Workflows\**" />
+    <EmbeddedResource Remove="Activities\Account\**" />
+    <EmbeddedResource Remove="Activities\Agreements\**" />
+    <EmbeddedResource Remove="Activities\Groups\**" />
+    <EmbeddedResource Remove="Activities\Library Documents\**" />
+    <EmbeddedResource Remove="Activities\Message Templates\**" />
+    <EmbeddedResource Remove="Activities\Scope\**" />
+    <EmbeddedResource Remove="Activities\Tokens\**" />
+    <EmbeddedResource Remove="Activities\Transient Documents\**" />
+    <EmbeddedResource Remove="Activities\Users\**" />
+    <EmbeddedResource Remove="Activities\Workflows\**" />
+    <None Remove="Activities\Account\**" />
+    <None Remove="Activities\Agreements\**" />
+    <None Remove="Activities\Groups\**" />
+    <None Remove="Activities\Library Documents\**" />
+    <None Remove="Activities\Message Templates\**" />
+    <None Remove="Activities\Scope\**" />
+    <None Remove="Activities\Tokens\**" />
+    <None Remove="Activities\Transient Documents\**" />
+    <None Remove="Activities\Users\**" />
+    <None Remove="Activities\Workflows\**" />
+  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="System" />
+		
+		<Reference Include="System.Core" />
+		<Reference Include="System.Xml.Linq" />
+		<Reference Include="System.Data.DataSetExtensions" />
+		
+		
+		<Reference Include="Microsoft.CSharp" />
+ 		
+		<Reference Include="System.Data" />
+		<Reference Include="System.Xml" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdobeSign\AdobeSign.csproj" PrivateAssets="All" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.*.resx">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="..\..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems" Label="Shared" />
+</Project>
